@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    top: 0;
+    width:100%;
+    z-index:1
+}
+.navbar div{
+    margin: 10px;
+}
+.home-image{
+    width: 100%;
+    margin-bottom: 100px;
+    animation: fadeIn 5s;
+}
+ @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.home-image img{
+    width: 100%;
+    
+}
+
+.navbar-item{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+}
+
+.section_2{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.half-section{
+    width: 50%;
+}
+.half-section img{
+    opacity: 30%;
+}
+.half-section img:hover{
+    opacity: 100%;
+}
+.half-section2{
+    width: 40%;
+}
+.half-section img{
+    width: 100%;
+}
+
+.lastflexbox{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.lastflexbox img{
+    opacity: 30%;
+}
+.lastflexbox img:hover{
+    opacity: 100%;
+}
+.last1{
+    width: 50%;
+}
+
+.last2{
+    width: 45%;
+}
+.last2 img{
+    width: 100%;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+}
+
+.firstForm input{
+    width: 100%;
+    border: none;
+    padding: 15px;
+}
